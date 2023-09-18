@@ -1,0 +1,5 @@
+<Enemies>
+ <Enemy name = "RADEV">
+  <health = 50></health>
+  <attack = 10></attack>
+  <defense = 25></defense> 
