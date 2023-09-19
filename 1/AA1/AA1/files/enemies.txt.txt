@@ -1,5 +1,101 @@
-<Enemies>
- <Enemy name = "RADEV">
+<EnemyData>
+ <Enemies>
+  <enemyname>RADEV</enemyname>
   <health = 50></health>
   <attack = 10></attack>
   <defense = 25></defense> 
+  <experience = 30></experience>
+  <atkrate = 2></atkrate>
+  <armory>
+   <weapon>
+    <id = "1001"></id>
+    <type>Sword</type>
+    <range>short</range>
+   </weapon>
+   <weapon>
+    <id = "1002"></id>
+    <type>Gun</type>
+    <range>medium</range>
+   </weapon>
+   <weapon>
+    <id = "1003"></id>
+    <type>Gloves</type>
+    <range>short</range>
+   </weapon>
+  </armory>
+ </Enemies>
+ <Enemies>
+  <enemyname>RICHARD</enemyname>
+  <health = 100></health>
+  <attack = 25></attack>
+  <defense = 15></defense> 
+  <experience = 50></experience>
+  <atkrate = 3></atkrate>
+  <armory>
+   <weapon>
+    <id = "1004"></id>
+    <type>Master Sword</type>
+    <range>medium</range>
+   </weapon>
+   <weapon>
+    <id = "1005"></id>
+    <type>Sceptre</type>
+    <range>long</range>
+   </weapon>
+   <weapon>
+    <id = "1006"></id>
+    <type>Sumo suit</type>
+    <range>short</range>
+   </weapon>
+  </armory> 
+ </Enemies>
+ <Enemies>
+  <enemyname>EDU</enemyname>
+   <health = 200></health>
+   <attack = 10></attack>
+   <defense = 5></defense> 
+   <experience = 100></experience>
+   <atkrate = 1></atkrate>
+   <armory>
+    <weapon>
+     <id = "1007"></id>
+     <type>Visual Studio</type>
+     <range>long</range>
+    </weapon>
+    <weapon>
+     <id = "1001"></id>
+     <type>Sword</type>
+     <range>short</range>
+    </weapon>
+    <weapon>
+     <id = "1008></id>
+     <type>Shotgun</type>
+     <range>medium</range>
+    </weapon>
+   </armory> 
+  </Enemies>
+  <Enemies>
+  <enemyname>Lluis Vicens</enemyname>
+   <health = 500></health>
+   <attack = 50></attack>
+   <defense = 35></defense> 
+   <experience = 1000></experience>
+   <atkrate = 5></atkrate>
+   <armory>
+    <weapon>
+     <id = "1009"></id>
+     <type>Scorched Earth</type>
+     <range>long</range>
+    </weapon>
+    <weapon>
+     <id = "1010"></id>
+     <type>Double-edged sword</type>
+     <range>long</range>
+    </weapon>
+    <weapon>
+     <id = "1011></id>
+     <type>Heat Glasses</type>
+     <range>short</range>
+    </weapon>
+   </armory> 
+  </Enemies>
