@@ -7,8 +7,8 @@
 
 int main() {
     rapidxml::xml_document<> doc;
-    std::ifstream file("AA1/files/enemies.txt");
-
+    std::ifstream file;
+    file.open("files/enemies.xml");
     if (!file.is_open()) {
         std::cout << "File not opened" << std::endl;
         return 1; // Return a non-zero value to indicate an error
