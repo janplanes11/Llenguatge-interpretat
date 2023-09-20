@@ -1,5 +1,6 @@
 #include <iostream>
 #include <fstream>
+#include <string>
 #include "includes/rapidxml.hpp"
 #include "includes/rapidxml_iterators.hpp"
 #include "includes/rapidxml_print.hpp"
@@ -11,11 +12,16 @@ int main() {
     file.open("files/enemies.xml");
     if (!file.is_open()) {
         std::cout << "File not opened" << std::endl;
-        return 1; // Return a non-zero value to indicate an error
+        return 0;
+    }
+    else {
+        std::cout << "yay its open"<<std::endl;
     }
 
-    // Rest of your code here
-
-    file.close(); // Don't forget to close the file when you're done with it
+    std::stringstream buffer;
+    buffer << file.rdbuf();
+    std::string content(buffer.str());
+    doc.parse<0>(&content[0]);
+    file.close(); 
     return 0;
 }
