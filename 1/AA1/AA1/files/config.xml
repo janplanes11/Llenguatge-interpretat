@@ -1,0 +1,98 @@
+﻿<enemies>
+	<enemy>
+		<Name>Edu</Name>
+		<attack>50</attack>
+		<defense>30</defense>
+		<Experience>100</Experience>
+		<attack_rate_per_second>2</attack_rate_per_second>
+		<weapons>
+			<weapon>
+				<ID>1</ID>
+				<type>Visual</type>
+				<range>The Soul</range>
+			</weapon>
+			<weapon>
+				<ID>2</ID>
+				<type>Gun</type>
+				<range>Ranged</range>
+			</weapon>
+			<weapon>
+				<ID>3</ID>
+				<type>Staff</type>
+				<range>Melee</range>
+			</weapon>
+		</weapons>
+	</enemy>
+	<enemy>
+		<Name>Richard</Name>
+		<attack>40</attack>
+		<defense>20</defense>
+		<Experience>80</Experience>
+		<attack_rate_per_second>3</attack_rate_per_second>
+		<weapons>
+			<weapon>
+				<ID>4</ID>
+				<type>Master Sword</type>
+				<range>Melee</range>
+			</weapon>
+			<weapon>
+				<ID>5</ID>
+				<type>Project Jury</type>
+				<range>My Sanity</range>
+			</weapon>
+			<weapon>
+				<ID>6</ID>
+				<type>Student tears</type>
+				<range>Ranged</range>
+			</weapon>
+		</weapons>
+	</enemy>
+	<enemy>
+		<Name>Radev</Name>
+		<attack>60</attack>
+		<defense>35</defense>
+		<Experience>120</Experience>
+		<attack_rate_per_second>2</attack_rate_per_second>
+		<weapons>
+			<weapon>
+				<ID>7</ID>
+				<type>CDI</type>
+				<range>Melee</range>
+			</weapon>
+			<weapon>
+				<ID>8</ID>
+				<type>Sumo suit</type>
+				<range>Melee</range>
+			</weapon>
+			<weapon>
+				<ID>9</ID>
+				<type>Spear</type>
+				<range>Melee</range>
+			</weapon>
+		</weapons>
+	</enemy>
+	<enemy>
+		<Name>Lluis Vicens</Name>
+		<attack>45</attack>
+		<defense>25</defense>
+		<Experience>90</Experience>
+		<attack_rate_per_second>4</attack_rate_per_second>
+		<weapons>
+			<weapon>
+				<ID>10</ID>
+				<type>Project</type>
+				<range>Ranged</range>
+			</weapon>
+			<weapon>
+				<ID>11</ID>
+				<type>Statistics</type>
+				<range>Melee</range>
+			</weapon>
+			<weapon>
+				<ID>12</ID>
+				<type>Whip</type>
+				<range>Melee</range>
+			</weapon>
+		</weapons>
+	</enemy>
+</enemies>
